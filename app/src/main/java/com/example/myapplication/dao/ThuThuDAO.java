@@ -53,6 +53,7 @@ public class ThuThuDAO {
         }
         return list;
     }
+    //...
     public List<ThuThu> getAll(){
         String sql = "SELECT * FROM ThuThu";
         return getData(sql);
